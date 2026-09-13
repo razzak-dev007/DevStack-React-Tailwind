@@ -149,10 +149,6 @@ Follow these simple steps to run DevStack locally on your machine:
 - **GitHub Repository Link:** [https://github.com/razzak-dev007/DevStack-React-Tailwind](https://github.com/razzak-dev007/DevStack-React-Tailwind)
 - **Live Site Link:** [https://razzak-dev007.github.io/DevStack-React-Tailwind/](https://razzak-dev007.github.io/DevStack-React-Tailwind/)
 
----
-
-
-This project is licensed under the [MIT License](LICENSE) — feel free to use it for personal and commercial projects.
 
 ---
 
