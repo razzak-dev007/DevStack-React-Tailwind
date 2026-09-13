@@ -1,0 +1,140 @@
+@import "react-toastify/dist/ReactToastify.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.5rem;
+  font-family: var(--font-primary);
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-primary);
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Gradient Theme Utilities */
+.gradient-brand-bg {
+  background: linear-gradient(135deg, #FF5E3A 0%, #FF2A85 50%, #8A2BE2 100%);
+}
+
+.gradient-brand-text {
+  background: linear-gradient(90deg, #FF5E3A 0%, #FF2A85 55%, #8A2BE2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-title-text {
+  background: linear-gradient(90deg, #FF5E3A 0%, #FF2A85 45%, #7C3AED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-tech-text {
+  background: linear-gradient(90deg, #E02888 0%, #7C3AED 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-brand-gradient {
+  background: linear-gradient(90deg, #FF5E3A 0%, #FF2A85 50%, #E02888 100%);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-brand-gradient:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(255, 42, 133, 0.35);
+}
+
+.btn-brand-gradient:active {
+  transform: translateY(0);
+  scale: 0.98;
+}
+
+.btn-nav-gradient {
+  background: linear-gradient(90deg, #FF2A85 0%, #E02888 100%);
+  color: #ffffff;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-nav-gradient:hover {
+  opacity: 0.94;
+  box-shadow: 0 4px 14px rgba(224, 40, 136, 0.35);
+  transform: translateY(-0.5px);
+}
+
+.btn-nav-gradient:active {
+  transform: translateY(0);
+  scale: 0.97;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8fafc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Glassmorphism helpers */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Float Animation Fallback in CSS */
+@keyframes floatAnim {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: floatAnim 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+/* Toastify custom rounded aesthetic */
+.Toastify__toast {
+  border-radius: 14px !important;
+  font-family: var(--font-primary) !important;
+  font-size: 0.875rem !important;
+  font-weight: 600 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.Toastify__toast-body {
+  padding: 6px 4px !important;
+}
