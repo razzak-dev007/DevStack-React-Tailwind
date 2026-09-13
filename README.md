@@ -2,7 +2,7 @@
 
 # ⚡ DevStack
 
-*Disclaimer: This README file was created and written with the help of AI.*
+*Disclaimer: This README file was created and written with the help of AI (Gemini).*
 
 ### *Architect, Compare & Assemble Your Ideal Development Stack*
 
