@@ -2,6 +2,8 @@
 
 # ⚡ DevStack
 
+*Disclaimer: This README file was created and written with the help of AI.*
+
 ### *Architect, Compare & Assemble Your Ideal Development Stack*
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Active-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://razzak-dev007.github.io/DevStack-React-Tailwind/)
@@ -149,7 +151,6 @@ Follow these simple steps to run DevStack locally on your machine:
 
 ---
 
-## 📄 License
 
 This project is licensed under the [MIT License](LICENSE) — feel free to use it for personal and commercial projects.
 
